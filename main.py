@@ -23,6 +23,7 @@ while True:
         for l in lmlist:
             datalist.append([l[1],l[2]])
         norm = 0
+
         minX = datalist[0][0]
         minY = datalist[0][1]
         for e in datalist:
